@@ -1,2 +1,3 @@
 # kakako-clone
- clone kakao css
+
+kakao desktop app clone
