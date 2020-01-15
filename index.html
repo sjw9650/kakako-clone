@@ -6,17 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://kit.fontawesome.com/322542892c.js" crossorigin="anonymous"></script>
         <title>Chats | Kakao Clone</title>
+        <link rel= "stylesheet" href="css/styles.css"
     </head>
     <body>
         <div class="status-bar">
-            <div class="status-bar__column"></div>
+            <div class="status-bar__column">
                 <span class="status-bar__clock">13:56</span>
+            </div>
+            <div class="status-bar__column">
                 <i class="fas fa-clock"></i>
                 <i class="fas fa-voulme-mute"></i>
                 <i class="fas fa-wifi"></i>
                 <i class="fas fa-battery-full"></i>
-                <span class="status-bar__clock__battery-level">100%</span>
-            <div class="status-bar__column"></div>
+                <span class="status-bar__battery-level">100%</span>
+            </div>
         </div>
     <header class = "header">
         <div class="header__header-colums">
@@ -30,7 +33,9 @@
                 <i class="far fa-comment"></i>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="settings.html">
+                    <i class="fas fa-cog"></i>
+                </a>
             </span>
         </div>
     </header>
@@ -39,20 +44,26 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__column">
-                        <div class="chat__content">
-                            <img src="images/avatar.jpg g-avatar" class="chat__avatar" >
-                            <span class="chat__username">
+                <div class="chat__chat friend friend--lg">
+                    <div class="friend__column">
+                        <img src="images/avatar.jpg"class="m-avatar friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">
                                 Lynn
                             </span>
-                            <span class="chat__preview">
+                            <span class="friend__bottom-text">
                                 Going home!
                             </span>
                         </div>
                     </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp"></span>
+
+                    <div class="friend__column">
+                        <span class="chat__timestamp">
+                            March 8.
+                        </span>
                     </div>
+
+                </div>
                 </a>
             </li>
         </ul>
@@ -67,6 +78,7 @@
         </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>

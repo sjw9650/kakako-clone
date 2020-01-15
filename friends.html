@@ -6,17 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://kit.fontawesome.com/322542892c.js" crossorigin="anonymous"></script>
         <title>Chats | Kakao Clone</title>
+        <link rel= "stylesheet" href="css/styles.css"
     </head>
     <body>
         <div class="status-bar">
-            <div class="status-bar__column"></div>
+            <div class="status-bar__column">
                 <span class="status-bar__clock">13:56</span>
+            </div>
+            <div class="status-bar__column">
                 <i class="fas fa-clock"></i>
                 <i class="fas fa-voulme-mute"></i>
                 <i class="fas fa-wifi"></i>
                 <i class="fas fa-battery-full"></i>
-                <span class="status-bar__clock__battery-level">100%</span>
-            <div class="status-bar__column"></div>
+                <span class="status-bar__battery-level">100%</span>
+            </div>
         </div>
     <header class = "header">
         <div class="header__header-colums">
@@ -31,11 +34,11 @@
             </span>
         </div>
     </header>
-    <main class="friends">
+    <main class="friend">
         <header class="frined__header">
-            <div class="friends__friend  friend friend--lg">
+            <div class="friend__friend  friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg"class="g-avatar">
+                    <img src="images/avatar.jpg"class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             jinwook song
@@ -48,11 +51,11 @@
                
             </div>
         </header>
-        <div class="friends__plus">
+        <div class="friend__plus">
             <h5 class="frined__plus-title">Plus friend</h5>
-            <div class="friends__friend friend">
+            <div class="friend__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg"class="g-avatar">
+                    <img src="images/avatar.jpg"class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus friend
@@ -61,11 +64,11 @@
                 </div>
             </div>
         </div>
-        <ul class="friends__list">
-            <h4 class="friends__title friend friend--lg">Friends 14</h4>
-            <li class="friends__friend friend">
-                <div class="friends__column">
-                    <img src="images/avatar.jpg"class="g-avatar">
+        <ul class="friend__list">
+            <h4 class="friend__title friend friend--lg">Friends 14</h4>
+            <li class="friend__friend friend">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg"class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             jinwook song
@@ -76,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="friends__column">
+                <div class="friend__column">
                     <div class="friend__now-listening">
                         <span>
                             IU - blueming
@@ -94,7 +97,7 @@
                 <a href="friends.html" class="nav__list-link">
                     <i class="far fa-user"></i>
                 </a>
-        </li>
+            </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
                     <i class="far fa-comment"></i>
