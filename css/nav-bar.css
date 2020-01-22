@@ -56,3 +56,40 @@
     animation-delay: 0.5s;
 }
 
+
+@keyframes activity{
+    0%
+    {
+        transform: none;
+    }
+    25%
+    {
+        transform: scale(2);
+    }
+    50%
+    {
+        transform : none;
+    }
+    65%
+    {
+        transform: translateY(-10px);
+    }
+    80%
+    {
+        transform: noen;
+    }  
+    90%
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform: noen;
+    }
+}
+
+.nav .nav__badge
+{
+
+    animation: activity 1s linear infinite;
+}
